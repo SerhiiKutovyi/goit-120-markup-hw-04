@@ -27,10 +27,6 @@ h6,
 p {
   margin: 0px;
 }
-/* 
-img {
-  display: block;
-} */
 
 /*?============================================   COMMON   ===  */
 
@@ -297,6 +293,7 @@ img {
 
 .team-img {
   display: block;
+  max-width: 264px;
 }
 
 .team-item-box {
@@ -310,6 +307,35 @@ img {
 
 .team-text {
   text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-list-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+
+  background-color: #4d5ae5;
+}
+
+.team-link:hover,
+.team-link:focus {
+  background-color: #31d0aa;
+}
+
+.team-icons {
+  fill: #f4f4fd;
 }
 
 /**====================================   Section Portfolio   ===*/
