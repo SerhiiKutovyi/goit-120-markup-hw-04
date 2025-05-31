@@ -433,6 +433,7 @@ p {
 
 .footer-wrapper {
   display: flex;
+  column-gap: 120px;
 }
 
 .footer-logo {
@@ -466,4 +467,10 @@ p {
 
 .footer-icons {
   fill: #f4f4fd;
+}
+
+.footer-icon-text {
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 16px;
 }
